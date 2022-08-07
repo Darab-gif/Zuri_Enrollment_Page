@@ -403,6 +403,9 @@
     font-size: 25px;
     color: #514949;
   }
+  .service-card:nth-child(1) h2 {
+    color: #fff;
+  }
 }
 .train {
   background-color: #e7332b;
@@ -1028,4 +1031,39 @@ h2 {
   cursor: pointer;
   font-size: 18px;
   font-weight: 700;
+}
+@media (max-width: 768px) {
+  .footer {
+    margin-top: 5rem;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-bottom: 1px solid #514949;
+  }
+  .footer-logo {
+    margin-left: 20px;
+  }
+  .footer-img {
+    margin-left: 5rem;
+    margin-bottom: 20px;
+  }
+  .footer-img img {
+    margin-left: 10px;
+  }
+  .footer-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-box div {
+    display: flex;
+    flex-direction: column;
+    display: none;
+  }
+  .footer-box p {
+    margin-left: 6rem;
+    margin-top: -12px;
+    font-weight: 800;
+  }
 }
