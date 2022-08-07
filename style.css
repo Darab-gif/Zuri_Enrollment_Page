@@ -65,6 +65,9 @@
   background-color: #e7332b;
 }
 @media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
   .header-list {
     display: none;
   }
@@ -75,19 +78,21 @@
     width: 9rem;
   }
   .header-thumbs {
-    height: 60px;
-    width: 60px;
+    height: 55px;
+    width: 55px;
   }
   .header-img-thumbs {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
   }
   .header-enroll {
-    padding: 10px 25px;
-    top: 22px;
+    padding: 10px 20px;
+    top: 20px;
+    font-size: 16px;
+    right: 4%;
   }
   .header-card {
-    margin-left: 1rem;
+    margin-left: 14px;
     margin-top: -1rem;
   }
 }
@@ -392,7 +397,7 @@
     height: 175rem;
   }
   .service-container .service-card {
-    margin-left: 18px;
+    margin-left: 26px;
     height: 26rem;
     width: 20rem;
   }
@@ -630,6 +635,7 @@
   .program-card {
     width: 20rem;
     height: 25rem;
+    margin-left: 3.8rem;
   }
   .program button {
     margin-left: 99px;
@@ -714,7 +720,7 @@
 
 @media (max-width: 768px) {
   .quest .img {
-    top: 535rem;
+    top: 532rem;
     left: 60px;
     width: 5rem;
   }
@@ -728,9 +734,9 @@
     font-size: 30px;
   }
   .quest-container {
-    width: 95%;
+    width: 90%;
     border: 1px solid #514949;
-    margin-left: 12px;
+    margin-left: 18px;
   }
   .quest-card h2 {
     font-size: 20px;
@@ -872,7 +878,8 @@ h2 {
     font-size: 23px;
   }
   .path-card li {
-    font-size: 18px;
+    font-size: 17px;
+    line-height: 29px;
   }
   .path .circle {
     top: 744rem;
@@ -962,17 +969,17 @@ h2 {
     height: 5rem;
   }
   .enroll-info .curve2 {
-    top: 777rem;
+    top: 775rem;
     width: 5rem;
     height: 5rem;
   }
   .enroll-info .round {
-    top: 762rem;
+    top: 758rem;
     width: 5rem;
     height: 5rem;
   }
   .enroll-info .circle2 {
-    top: 778rem;
+    top: 775rem;
     width: 5rem;
     height: 5rem;
   }
@@ -1034,12 +1041,12 @@ h2 {
 }
 @media (max-width: 768px) {
   .footer {
-    margin-top: 5rem;
+    margin-top: 3rem;
   }
   .footer-container {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     border-bottom: 1px solid #514949;
   }
   .footer-logo {
@@ -1063,7 +1070,7 @@ h2 {
   }
   .footer-box p {
     margin-left: 6rem;
-    margin-top: -12px;
+    margin-top: -25px;
     font-weight: 800;
   }
 }
