@@ -629,7 +629,7 @@
     height: 25rem;
   }
   .program button {
-    margin-left: 60px;
+    margin-left: 99px;
     margin-top: 5rem;
   }
 }
@@ -709,6 +709,50 @@
   font-size: 20px;
 }
 
+@media (max-width: 768px) {
+  .quest .img {
+    top: 535rem;
+    left: 60px;
+    width: 5rem;
+  }
+  .quest-info {
+    margin-top: 20px;
+  }
+  .quest-info h2 {
+    font-size: 18px;
+  }
+  .quest-info h1 {
+    font-size: 30px;
+  }
+  .quest-container {
+    width: 95%;
+    border: 1px solid #514949;
+    margin-left: 12px;
+  }
+  .quest-card h2 {
+    font-size: 20px;
+  }
+  .quest-card {
+    display: flex;
+    align-items: baseline;
+    gap: 2rem;
+  }
+  .quest-card span {
+    font-weight: 900;
+  }
+  .quest-btn {
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+  }
+  .quest-btn p {
+    font-size: 18px;
+  }
+  .quest-btn button {
+    padding: 5px 15px;
+    font-size: 16px;
+  }
+}
 .path {
   margin-top: 3rem;
   border-top: 1px solid #514949;
@@ -788,6 +832,51 @@ h2 {
   z-index: -999;
 }
 
+@media (max-width: 768px) {
+  .path .img {
+    width: 4rem;
+    margin-left: 12px;
+    margin-top: 20px;
+  }
+  .path .star {
+    float: right;
+    width: 3rem;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  .path-info {
+    margin-top: -3rem;
+    margin-left: 2rem;
+  }
+  .path-info p {
+    font-size: 16px;
+  }
+  .path-info h1 {
+    font-size: 23px;
+  }
+  .path-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .path-card {
+    width: 21rem;
+    margin-left: 10px;
+    height: 45rem;
+  }
+  .path-card h1,
+  h2 {
+    font-size: 23px;
+  }
+  .path-card li {
+    font-size: 18px;
+  }
+  .path .circle {
+    top: 744rem;
+    right: 0px;
+    width: 8rem;
+  }
+}
 .enroll {
   margin-top: 4rem;
 }
@@ -857,6 +946,52 @@ h2 {
   right: 15px;
 }
 
+@media (max-width: 768px) {
+  .enroll {
+    margin-top: 10rem;
+  }
+  .enroll-info {
+    margin-left: 16px;
+  }
+  .enroll-info .curve1 {
+    margin-left: 80%;
+    width: 5rem;
+    height: 5rem;
+  }
+  .enroll-info .curve2 {
+    top: 777rem;
+    width: 5rem;
+    height: 5rem;
+  }
+  .enroll-info .round {
+    top: 762rem;
+    width: 5rem;
+    height: 5rem;
+  }
+  .enroll-info .circle2 {
+    top: 778rem;
+    width: 5rem;
+    height: 5rem;
+  }
+  .enroll-card {
+    width: 80%;
+    margin-top: 3rem;
+    margin-left: 20px;
+  }
+  .enroll-card p {
+    font-size: 18px;
+  }
+  .enroll-card h1 {
+    font-size: 30px;
+    padding-block: 15px;
+  }
+  .enroll-info button {
+    padding: 10px 30px;
+  }
+  .enroll-img {
+    display: none;
+  }
+}
 .footer {
   margin-top: 2rem;
   height: 10rem;
