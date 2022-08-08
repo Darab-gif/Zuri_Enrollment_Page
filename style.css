@@ -678,6 +678,9 @@ body {
   margin-left: 14%;
   margin-top: 3rem;
 }
+.answer {
+  display: none;
+}
 .quest-card {
   border: 1px solid #514949;
   padding: 20px;
