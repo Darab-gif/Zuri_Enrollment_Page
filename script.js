@@ -1,15 +1,15 @@
-const answer = document.getElementsByClassName("answer");
+const answer = document.querySelectorAll(".answer");
 
-const quest_card = document.getElementsByClassName("quest-card");
+const quest_card = document.querySelectorAll(".quest-card");
 
 for (let i = 0; i <= quest_card.length; i++) {
-  quest_card[i].addEventListener("click", function () {
-    for (let k = 0; k <= answer.length; k++) {
-      if (answer[k].style.display == "none") {
+  for (let k = 0; k < answer.length; k++) {
+    quest_card[i].addEventListener("click", function () {
+      if (answer[k].style.display === "none") {
         answer[k].style.display = "block";
       } else {
         answer[k].style.display = "none";
       }
-    }
-  });
+    });
+  }
 }
